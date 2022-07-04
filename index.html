@@ -4,45 +4,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div id="page-container">
         <header id="header">
-            <img src="smiley.gif" alt="Smiley face">
-            <nav id="nav-bar"></nav>
+            <div>
+              <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+            </div>
+
+            <nav id="nav-bar">
              <ul>
-               <li>
+                <li>
                   <a class="nav-link" href="#features">Features</a>
-               </li>
-               <li>
-                  <a class="nav-link"        href="#how-it-works">How It Works</a>
-               </li>
-               <li>
+                </li>
+                <li>
+                  <a class="nav-link" href="#how-it-works">How It Works</a>
+                </li>
+                <li>
                   <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
              </ul>
+            </nav>
      </header>
        
      <section>
        <h2>Handcrafted, home-made masterpieces</h2>
        <form id="form">
-         <input id="email" type="email" placeholder ="Please enter your email address">
-         <input id="submit" type="submit" value="GET STARTED">
+         <input id="email" type="email" placeholder ="Please enter your email address" required>
+         <input id="submit" class="btn" type="submit" value="GET STARTED">
        </form>
      </section>
      <div id="container">
        <section id="features">
-         <div></div>
-         <div></div>
-         <div></div>
+         <div id="grid">
+            <div></div>
+            <div class="desc">
+              <h2>Premium Materials</h2>
+              <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+         </div>
+
+         <div id="grid">
+            <div></div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+         </div>
+
+         <div id="grid">
+            <div></div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+         </div>
+
        </section>
-       <section id="how-it-works"></section>
-       <section id="pricing"> </section>
+       <section id="how-it-works">
+        <!-- LO HAGO MAS ADELANTE PQ ES MAS COMPLEJO-->
+       </section>
+       <section id="pricing">
+          <div>
+            <div id="tenor" class="product">
+              <div>TENOR TROMBONE</div>
+              <h2>$600</h2>
+              <ol>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+              </ol>
+            </div>
+            <div id="bass" class="product">
+              <div>BASS TROMBONE</div>
+              <h2>$900</h2>
+              <ol>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+              </ol>
+              
+            </div>
+            <div id="valve" class="product">
+              <div>VALVE TROMBONE</div>
+              <h2>$1200</h2>
+              <ol>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+              </ol>
+            </div>
+          </div>
+       </section>
        
-       <footer></footer>
+       <footer>
+        <ul>
+          <li><a href="#">Privacity</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+       </footer>
      </div>
      
      </div>
-    
+
 </body>
 </html>
