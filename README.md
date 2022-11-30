@@ -1,2 +1,3 @@
 # Pagina-De-Compras
-Pagina de compras para modificar y perfeccionar desde html hasta producto final
+
+-Proyecto realizado a partir de curso realizado en la pagina de FreeCodeCamp.
